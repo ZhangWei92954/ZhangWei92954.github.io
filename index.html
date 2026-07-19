@@ -227,10 +227,14 @@
     }
 
     .projectList li::marker,
-    .fullPublicationList li::marker,
-    .newsList li::marker {
+    .fullPublicationList li::marker {
       color: var(--accent);
       font-weight: 700;
+    }
+
+    .newsList {
+      list-style: none;
+      padding-left: 0;
     }
 
     .date {
@@ -564,7 +568,7 @@
 
       <section id="service" class="block">
         <h2 data-i18n="serviceTitle">Academic Appointments & Honors</h2>
-        <ol class="newsList">
+        <ul class="newsList">
           <li><span class="date">2025</span><span data-i18n="service1">Young Editorial Board Member, Pharmaceutics (IF=6.9).</span></li>
           <li><span class="date">2025</span><span data-i18n="service2">Young Editorial Board Member, Traditional Medicine Research.</span></li>
           <li><span class="date">2025</span><span data-i18n="service3">Young Editorial Board Member, World Journal of Integrated Traditional and Western Medicine.</span></li>
@@ -577,7 +581,7 @@
           <li><span class="date">2025</span><span data-i18n="service10">Top Ten Emerging Medical Talents Promoting Industry Progress, 2024.</span></li>
           <li><span class="date">2025</span><span data-i18n="service11">Outstanding Individual in Research among Advanced Employees, Shenzhen University General Hospital, 2024.</span></li>
           <li><span class="date">2024</span><span data-i18n="service12">Shenzhen Excellent Science and Technology Innovation Talent.</span></li>
-        </ol>
+        </ul>
       </section>
     </section>
   </main>
